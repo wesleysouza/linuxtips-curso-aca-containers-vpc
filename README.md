@@ -9,6 +9,18 @@ Repositório da aula de VPC do curso de formação em arquitetura de continainer
 
 ![](./docs/Linuxtips-Containers-AWS-VPC%20-%20Planejamento.drawio.png)
 
+## Useful Commands
+
+```bash
+terraform-docs markdown table . > header.md
+
+terraform init -backend-config=environment/dev/backend.tfvars
+
+terraform plan -var-file="environment/dev/terraform.tfvars"
+
+terraform apply -var-file="environment/dev/terraform.tfvars"
+```
+
 ## Requirements
 
 No requirements.
