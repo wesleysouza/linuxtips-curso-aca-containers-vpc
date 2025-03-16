@@ -1,14 +1,3 @@
-# linuxtips-curso-aca-containers-vpc
-Repositório da aula de VPC do curso de formação em arquitetura de continainers na AWS
-
-## Arquitetura da VPC de alta disponibilidade
-
-![](./docs/Linuxtips-Containers-AWS-VPC%20Uso.drawio.png)
-
-### Definição dos CIDRs das subnets
-
-![](./docs/Linuxtips-Containers-AWS-VPC%20-%20Planejamento.drawio.png)
-
 ## Requirements
 
 No requirements.
