@@ -14,7 +14,7 @@ Repositório da aula de VPC do curso de formação em arquitetura de continainer
 ```bash
 terraform-docs markdown table . > header.md
 
-terraform init -backend-config=environment/dev/backend.tfvars
+terraform init -backend-config="environment/dev/backend.tfvars"
 
 terraform plan -var-file="environment/dev/terraform.tfvars"
 
