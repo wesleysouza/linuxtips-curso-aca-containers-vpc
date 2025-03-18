@@ -16,6 +16,8 @@ terraform-docs markdown table . > header.md
 
 terraform init -backend-config="environment/dev/backend.tfvars"
 
+terraform validate
+
 terraform plan -var-file="environment/dev/terraform.tfvars"
 
 terraform apply -var-file="environment/dev/terraform.tfvars"
