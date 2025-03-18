@@ -40,10 +40,10 @@ output "ssm_subnet_databases_1a" {
 
 output "ssm_subnet_databases_1b" {
   description = "Id of database subnet of availability zone 1b storing in AWS System Parameter Store. This value will be used for provisioned database instances in specific availability zone."
-  value       = aws_ssm_parameter.database_1a.id
+  value       = aws_ssm_parameter.database_1b.id
 }
 
 output "ssm_subnet_databases_1c" {
   description = "Id of database subnet of availability zone 1c storing in AWS System Parameter Store. This value will be used for provisioned database instances in specific availability zone."
-  value       = aws_ssm_parameter.database_1a.id
+  value       = aws_ssm_parameter.database_1c.id
 }
